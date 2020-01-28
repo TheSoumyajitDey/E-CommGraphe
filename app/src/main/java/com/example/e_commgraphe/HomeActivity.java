@@ -35,14 +35,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Post List");
-
-        mRecylerView = findViewById(R.id.recycler);
-        mRecylerView.setHasFixedSize(true);
-        mRecylerView.setLayoutManager(new LinearLayoutManager(this));
-        mfirebaseDatabase = FirebaseDatabase.getInstance();
-        mRef = mfirebaseDatabase.getReference("Data");
+//
 
 
 
@@ -64,32 +57,5 @@ public class HomeActivity extends AppCompatActivity {
         });
     }
 
-    //load data to the recycler View onStart
 
-
-//    @Override
-//    protected void onStart() {
-//        super.onStart();
-//
-//        FirebaseRecyclerAdapter<ImageRetrive, RecyclerView.ViewHolder> firebaseRecyclerAdapter =
-//                new FirebaseRecyclerAdapter<ImageRetrive, RecyclerView.ViewHolder>(
-//                        ImageRetrive.class,
-//                        R.layout.row,
-//                        ViewHolder.class,
-//                        mRef
-//                ) {
-//                    @Override
-//                    protected void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position, @NonNull ImageRetrive model) {
-//
-//                    }
-//
-//                    @NonNull
-//                    @Override
-//                    public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-//                        return null;
-//                    }
-//                }
-//
-//
-//    }
 }
