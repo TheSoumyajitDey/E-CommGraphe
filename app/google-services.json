@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "86552421921",
+    "firebase_url": "https://grapheapunkaboss.firebaseio.com",
+    "project_id": "grapheapunkaboss",
+    "storage_bucket": "grapheapunkaboss.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86552421921:android:a982c5ebb1954654e1e560",
+        "android_client_info": {
+          "package_name": "com.example.e_commgraphe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86552421921-bjhvbu6gm85lon1bgneirakm2oerj0lf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.e_commgraphe",
+            "certificate_hash": "4d0aacccd219fb0db6b472d4938df20670f39473"
+          }
+        },
+        {
+          "client_id": "86552421921-j93q8hian7c845cef7p78pu7e9fq1tcd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz0z8J6jCNvsmfzkZwSc_e6Q4BrenZwqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86552421921-j93q8hian7c845cef7p78pu7e9fq1tcd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

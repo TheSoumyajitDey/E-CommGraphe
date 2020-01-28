@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:src="@drawable/e"
+        android:layout_marginTop="60dp" />
+
+
+
+    <Button
+        android:id="@+id/main_login_button"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Already Have an account?Log in"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:id="@+id/main_join_now_button"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_login_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="126dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="20dp"
+        android:text="Join Now"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
