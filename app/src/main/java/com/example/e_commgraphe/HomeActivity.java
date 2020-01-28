@@ -38,7 +38,7 @@ public class HomeActivity extends AppCompatActivity {
 //
 
 
-
+        //added
         logoutbutton = (Button)findViewById(R.id.logoutbutton);
         logoutbutton.setOnClickListener(new View.OnClickListener() {
             @Override
