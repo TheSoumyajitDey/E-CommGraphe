@@ -127,37 +127,6 @@ public class LoginActivity extends AppCompatActivity {
                     }
 
 
-
-
-//                    Users userData = dataSnapshot.child("Users").child(phone).getValue(Users.class);
-//                    if(userData.getPhone().equals(phone) && userData.getPassword().equals(password)){
-//                        if(dataSnapshot.child("Users").child(phone).child(password).exists()){
-//
-//                            Intent inti = new Intent(LoginActivity.this,testActivity.class);
-//                            startActivity(inti);
-//
-//                            Toast.makeText(LoginActivity.this,"Welcome back ! Logged in Successfully",Toast.LENGTH_SHORT).show();
-//                            loadingBar.dismiss();
-//
-//
-//                        }
-
-////                        if(userData.getPassword().equals(password)){
-
-//                        Intent inti = new Intent(LoginActivity.this,testActivity.class);
-//                        startActivity(inti);
-
-
-
-
-//                            Intent intent = new Intent(LoginActivity.this,testActivity.class);
-//                            startActivity(intent);
-
-//                        }else {
-//                            Toast.makeText(LoginActivity.this,"Password that you entered is WRONG",Toast.LENGTH_SHORT).show();
-//
-//                        }
-
                     }
 
 
