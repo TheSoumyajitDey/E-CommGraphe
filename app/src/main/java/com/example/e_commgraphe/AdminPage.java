@@ -102,7 +102,7 @@ public class AdminPage extends AppCompatActivity {
                 if((dataSnapshot.child("phone").getValue().toString()).equals(phone)){
                     if((dataSnapshot.child("password").getValue().toString()).equals(password)){
 
-                        Intent inti = new Intent(AdminPage.this,HomeActivity.class);
+                        Intent inti = new Intent(AdminPage.this,UploadTypeSelectorPage.class);
                         startActivity(inti);
 
                         Toast.makeText(AdminPage.this,"Hi Admin ! Welcome ",Toast.LENGTH_SHORT).show();
