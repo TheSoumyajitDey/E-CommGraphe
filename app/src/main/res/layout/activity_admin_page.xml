@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/g"
-    tools:context=".LoginActivity">
+    tools:context=".AdminPage">
 
     <ImageView
         android:id="@+id/logo"
@@ -15,13 +15,13 @@
         android:layout_marginTop="60dp" />
 
     <EditText
-        android:id="@+id/login_phone_number_input"
+        android:id="@+id/admin_login_phone_number_input"
         android:layout_width="389dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/logo"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="63dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginRight="15dp"
         android:background="@drawable/input_designs"
         android:hint="Phone Number"
         android:inputType="number"
@@ -31,11 +31,12 @@
         android:textSize="17sp"
         android:textStyle="bold" />
 
+
     <EditText
-        android:id="@+id/login_password_input"
+        android:id="@+id/admin_login_password_input"
         android:layout_width="389dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/login_phone_number_input"
+        android:layout_below="@+id/admin_login_phone_number_input"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="18dp"
         android:layout_marginRight="15dp"
@@ -48,29 +49,13 @@
         android:textSize="17sp"
         android:textStyle="bold" />
 
-
-    <TextView
-        android:id="@+id/forget_Password"
-        android:layout_width="409dp"
-        android:layout_height="43dp"
-        android:layout_below="@+id/login_password_input"
-        android:layout_marginLeft="2dp"
-        android:layout_marginTop="21dp"
-
-        android:layout_marginRight="2dp"
-        android:gravity="center"
-        android:text="Forget Password"
-        android:textColor="#6638FF"
-        android:textSize="17sp"
-        android:textStyle="bold" />
-
     <Button
-        android:id="@+id/mwork"
+        android:id="@+id/adminLogin"
         android:layout_width="394dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/forget_Password"
+        android:layout_below="@+id/admin_login_password_input"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="15dp"
         android:layout_marginBottom="15dp"
         android:background="@drawable/buttons"
@@ -82,18 +67,6 @@
         android:textSize="18sp" />
 
 
-    <TextView
-        android:id="@+id/rememberMe"
-        android:layout_width="161dp"
-        android:layout_height="43dp"
-        android:layout_below="@+id/logo"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="8dp"
-        android:gravity="center"
-        android:text="Admin Login Portal "
-        android:textColor="#6638FF"
-        android:textSize="17sp"
-        android:textStyle="bold" />
 
 
-</RelativeLayout >
+</RelativeLayout>

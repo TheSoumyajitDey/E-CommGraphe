@@ -82,7 +82,7 @@
         android:textSize="18sp" />
 
     <Button
-        android:id="@+id/adminhuBhai"
+        android:id="@+id/adminBro"
         android:layout_width="394dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/mwork"

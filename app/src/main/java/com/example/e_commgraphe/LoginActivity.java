@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         LoginButton = (Button) findViewById(R.id.mwork);
-        AdminLogicButton = (Button) findViewById(R.id.adminhuBhai);
+        AdminLogicButton = (Button) findViewById(R.id.adminBro);
         InputNumber = (EditText)findViewById(R.id.login_phone_number_input);
         InputPassword = (EditText)findViewById(R.id.login_password_input);
         chkBoxRememberME = (CheckBox)findViewById(R.id.rememberMe);
@@ -61,7 +61,13 @@ public class LoginActivity extends AppCompatActivity {
 //                startActivity(intent);
 //            }
 //        });
-
+        AdminLogicButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this,AdminPage.class);
+                startActivity(intent);
+            }
+        });
 
 
     }
