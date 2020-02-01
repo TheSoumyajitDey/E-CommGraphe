@@ -6,6 +6,93 @@
     android:background="@drawable/g"
     tools:context=".AdminPowerToAddNewProduct">
 
+    <ImageView
+        android:id="@+id/select_Product_Image"
+        android:layout_width="219dp"
+        android:layout_height="217dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/eye"
+
+        ></ImageView>
+
+
+    <EditText
+        android:id="@+id/productName"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_Product_Image"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_designs"
+        android:hint="Product Type"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="#1B859B"
+        android:textColorHint="#1B859B"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/productDescription1"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/productName"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_designs"
+        android:hint="Product Description"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="#1B859B"
+        android:textColorHint="#1B859B"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/productDescription"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/productDescription1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_designs"
+        android:hint="Product Price "
+        android:inputType="number"
+        android:padding="20dp"
+        android:textColor="#1B859B"
+        android:textColorHint="#1B859B"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+
+
+    <Button
+        android:id="@+id/mwork"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/productDescription"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="20dp"
+        android:text="Add Product"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+
+
+
 
 
 
