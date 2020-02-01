@@ -23,12 +23,11 @@ public class AdminPowerToAddNewProduct extends AppCompatActivity {
         //will be adding features where the admin will have the capibility of uploading images directly from the smartphone and the images would be directly uploaded to the Firebase
         //Database and Firebase Cloud Database !
 
+        //this comment taking the tag and feeding it to the catagory name
+        catagoryName = getIntent().getStringExtra("catagory ");
 
-        //system crashing when value is taken back from the previous JAVA file and and trying to toast the selected variable
-        catagoryName = getIntent().getExtras().get("catagory").toString();
-
-
-        Toast.makeText(AdminPowerToAddNewProduct.this,"Superman ",Toast.LENGTH_SHORT).show();
+        //just making a toast
+        Toast.makeText(AdminPowerToAddNewProduct.this,"Superman "+ catagoryName,Toast.LENGTH_SHORT).show();
 
 
 
