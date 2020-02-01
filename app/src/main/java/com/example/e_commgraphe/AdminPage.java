@@ -121,7 +121,7 @@ public class AdminPage extends AppCompatActivity {
 
 
                 else {
-                    Toast.makeText(AdminPage.this,"User by this "+ phone+" does not exits",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AdminPage.this,"Admin by this "+ phone+" does not exits",Toast.LENGTH_SHORT).show();
                     loadingBar.dismiss();
                 }
 

@@ -52,7 +52,7 @@ public class UploadTypeSelectorPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(UploadTypeSelectorPage.this,AdminPowerToAddNewProduct.class);
-                intent.putExtra("catagory ","speakers ");
+                intent.putExtra("catagory ","speakers");
                 startActivity(intent);
             }
         });
@@ -63,7 +63,7 @@ public class UploadTypeSelectorPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(UploadTypeSelectorPage.this,AdminPowerToAddNewProduct.class);
-                intent.putExtra("catagory ","phones ");
+                intent.putExtra("catagory ","phones");
                 startActivity(intent);
             }
         });
@@ -74,7 +74,7 @@ public class UploadTypeSelectorPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(UploadTypeSelectorPage.this,AdminPowerToAddNewProduct.class);
-                intent.putExtra("catagory ","laptops ");
+                intent.putExtra("catagory ","laptops");
                 startActivity(intent);
             }
         });
@@ -85,7 +85,7 @@ public class UploadTypeSelectorPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(UploadTypeSelectorPage.this,AdminPowerToAddNewProduct.class);
-                intent.putExtra("catagory ","clothes ");
+                intent.putExtra("catagory ","clothes");
                 startActivity(intent);
             }
         });
