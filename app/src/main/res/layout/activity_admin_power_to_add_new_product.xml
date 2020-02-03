@@ -37,7 +37,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/productDescription1"
+        android:id="@+id/productDescription"
         android:layout_width="389dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/productName"
@@ -54,10 +54,10 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/productDescription"
+        android:id="@+id/productPrice"
         android:layout_width="389dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/productDescription1"
+        android:layout_below="@+id/productDescription"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="18dp"
         android:layout_marginRight="15dp"
@@ -74,10 +74,10 @@
 
 
     <Button
-        android:id="@+id/mwork"
+        android:id="@+id/uploadImageButton"
         android:layout_width="394dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/productDescription"
+        android:layout_below="@+id/productPrice"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="15dp"
